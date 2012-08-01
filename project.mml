@@ -1,0 +1,137 @@
+{
+  "bounds": [
+    -84.8145,
+    40.1748,
+    -79.2773,
+    43.3213
+  ],
+  "center": [
+    -80.3781,
+    42.2083,
+    7
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "status": "on",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "id": "2010-06-route",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-06/routes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-06-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2010-10-route",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-10/routes.shp",
+        "id": "2010-10-route",
+        "project": "CleCritMass",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-10-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2011-11-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-11/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-11-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2011-12-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-12/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-12-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2012-04-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-04/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2012-04-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2010-08-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-08/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-08-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2010-11-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-11/routes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-11-track",
+      "status": "on"
+    },
+    {
+      "geometry": "point",
+      "id": "2011-01-points",
+      "class": "points",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-01/CCM--2011-01.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-01-points",
+      "status": "on"
+    }
+  ],
+  "name": "Cleveland Critical Mass",
+  "description": "Cleveland Critical Mass traces",
+  "attribution": "",
+  "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp"
+}
