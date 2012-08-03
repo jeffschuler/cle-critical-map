@@ -1,14 +1,14 @@
 {
   "bounds": [
-    -84.8145,
-    40.1748,
-    -79.2773,
-    43.3213
+    -81.7676,
+    41.4633,
+    -81.6428,
+    41.5376
   ],
   "center": [
-    -80.3781,
-    42.2083,
-    7
+    -81.7015,
+    41.4961,
+    13
   ],
   "format": "png",
   "interactivity": false,
@@ -118,20 +118,176 @@
       "status": "on"
     },
     {
-      "geometry": "point",
-      "id": "2011-01-points",
-      "class": "points",
+      "geometry": "linestring",
+      "id": "2010-05-route",
+      "class": "route",
       "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-01/CCM--2011-01.shp"
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-05/routes.shp"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "name": "2011-01-points",
+      "name": "2010-05-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2010-04-route",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-04/routes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-04-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2009-10-route",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2009-10/routes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2009-10-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2009-09-route",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2009-09/routes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2009-09-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2012-05-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-05/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2012-05-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2012-06-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-06/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2012-06-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2011-01-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-01/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-01-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2011-02-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-02/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-02-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2011-03-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-03/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-03-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2011-04-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-04/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-04-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2011-05-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-05/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-05-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2011-06-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-06/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-06-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2010-09-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-09/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-09-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2009-08-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2009-08/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2009-08-track",
       "status": "on"
     }
   ],
   "name": "Cleveland Critical Mass",
-  "description": "Cleveland Critical Mass traces",
+  "description": "Cleveland Critical Mass routes",
   "attribution": "",
   "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp"
 }
