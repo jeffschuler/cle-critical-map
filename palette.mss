@@ -34,14 +34,11 @@ Map { font-directory: url(./fonts); }
 
 /* ================================================================== */
 /* COLORS
+/* http://colorschemedesigner.com/#0r31T80ttvyEP
 /* ================================================================== */
-@white:             #FFFFFF;
+@white: #FFFFFF;
 
-@brown1: #A07352;
-@brown2: #A0653A;
-@brown3: #2D1503;
-@brown4: #4F290D;
-@brown5: #372517;
+@brown: lighten(#795942, 50%);
 
 @blue1: #526892;
 @blue2: #3E5B92;
@@ -59,7 +56,8 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 @land:              @white;
-@water:             @blue1;
+@water:             lighten(@blue1, 40%);
+
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
 @park:              #DAF2C1;
@@ -90,39 +88,39 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     #E65C5C;
+@motorway_line:     @brown;
 @motorway_fill:     lighten(@motorway_line,10%);
 @motorway_case:     @motorway_line * 0.9;
 
-@trunk_line:        #E68A5C;
+@trunk_line:        @brown;
 @trunk_fill:        lighten(@trunk_line,10%);
 @trunk_case:        @trunk_line * 0.9;
 
-@primary_line:      #FFC859;
+@primary_line:      @brown;
 @primary_fill:      lighten(@primary_line,10%);
 @primary_case:      @primary_line * 0.9;
 
-@secondary_line:    #FFE873;
+@secondary_line:    @brown;
 @secondary_fill:    lighten(@secondary_line,10%);
 @secondary_case:    @secondary_line * 0.9;
 
-@standard_line:     @land * 0.85;
-@standard_fill:     #fff;
-@standard_case:     @land * 0.9;
+@standard_line:     @brown;
+@standard_fill:     @brown;
+@standard_case:     @brown * 0.9;
 
-@pedestrian_line:   @standard_line;
-@pedestrian_fill:   #FAFAF5;
-@pedestrian_case:   @land;
+@pedestrian_line:   @brown;
+@pedestrian_fill:   @brown;
+@pedestrian_case:   @brown;
 
-@cycle_line:        @standard_line;
-@cycle_fill:        #FAFAF5;
-@cycle_case:        @land;
+@cycle_line:        @brown;
+@cycle_fill:        @brown;
+@cycle_case:        @brown;
 
-@rail_line:         #999;
-@rail_fill:         #fff;
-@rail_case:         @land;
+@rail_line:         @brown;
+@rail_fill:         @brown;
+@rail_case:         @brown;
 
-@aeroway:           #ddd;
+@aeroway:           @brown;
 
 /* ================================================================== */
 /* BOUNDARY COLORS

@@ -515,6 +515,7 @@
 /* ROAD LABELS
 /* ================================================================== */
 
+/*
 #motorway_label[zoom>=11][zoom<=14][reflen<=8] {
   shield-name: "[ref]";
   shield-size: 9;
@@ -546,6 +547,7 @@
   [zoom=13] { shield-min-distance: 120; } //120
   [zoom=14] { shield-min-distance: 180; }
 }
+*/
 
 #motorway_label[type='motorway'][zoom>9],
 #motorway_label[type='trunk'][zoom>9] {

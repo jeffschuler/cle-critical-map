@@ -17,6 +17,7 @@
   polygon-gamma: 0.75;
 }
 
+/*
 #landuse_gen0[zoom>3][zoom<=9],
 #landuse_gen1[zoom>9][zoom<=12],
 #landuse[zoom>12] {
@@ -58,8 +59,10 @@
   [zoom>11][zoom<=14] { polygon-pattern-file:url(img/marsh-16.png); }
   [zoom>14] { polygon-pattern-file:url(img/marsh-32.png);}
   }
+*/
 
 /* ---- BUILDINGS ---- */
+/*
 #buildings[zoom>10][zoom<=16] {
   polygon-fill:@building;
   [zoom>13] {
@@ -71,7 +74,9 @@
     line-width:0.4;
   }
 }
+*/
 /* At the highest zoom levels, render buildings in fancy pseudo-3D */
+/*
 #buildings[zoom>=17][type != 'hedge'] {
   building-fill:@building;
   building-height:1.25;
@@ -81,6 +86,7 @@
   building-fill:@wooded;
   building-height:1.25;
 }
+*/
 
 /* ================================================================== */
 /* WATER AREAS
