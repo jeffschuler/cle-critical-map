@@ -30,7 +30,7 @@ Map { font-directory: url(./fonts); }
 /* Some fonts are larger or smaller than others. Use this variable to
    globally increase or decrease the font sizes. */
 /* Note this is only implemented for certain things so far */
-@text_adjust: 5;
+@text_adjust: 3;
 
 /* ================================================================== */
 /* LANDUSE & LANDCOVER COLORS
@@ -53,10 +53,10 @@ Map { font-directory: url(./fonts); }
 @hospital:          @misc_feature;
 @school:            @misc_feature;
 
-@residential:       @land * 0.98;
-@commercial:        @land * 0.97;
-@industrial:        @land * 0.96;
-@parking:           #EEE;
+@residential:       @misc_feature;
+@commercial:        @misc_feature;
+@industrial:        @misc_feature;
+@parking:           @misc_feature;
 
 /* ================================================================== */
 /* ROAD COLORS
@@ -72,24 +72,24 @@ Map { font-directory: url(./fonts); }
  */
 
 @standard_line:     @land * 0.95;
-@standard_fill:     lighten(@land, 4%);
+@standard_fill:     lighten(@land, 8%);
 @standard_case:     @land * 0.95;
 
 @motorway_line:     @standard_line;
 @motorway_fill:     @standard_fill;
-@motorway_case:     @motorway_line * 0.9;
+@motorway_case:     @motorway_line * 0.95;
 
 @trunk_line:        @standard_line;
 @trunk_fill:        @standard_fill;
-@trunk_case:        @trunk_line * 0.9;
+@trunk_case:        @trunk_line * 0.95;
 
 @primary_line:      @standard_line;
 @primary_fill:      @standard_fill;
-@primary_case:      @primary_line * 0.9;
+@primary_case:      @primary_line * 0.95;
 
 @secondary_line:    @standard_line;
 @secondary_fill:    lighten(@secondary_line,10%);
-@secondary_case:    @secondary_line * 0.9;
+@secondary_case:    @secondary_line * 0.95;
 
 @pedestrian_line:   @standard_line;
 @pedestrian_fill:   @standard_fill;
@@ -118,7 +118,7 @@ Map { font-directory: url(./fonts); }
 /* We set up a default halo color for places so you can edit them all
    at once or override each individually. */
 
-@place_text:        #f7eade;
+@place_text:        #c4b5a7;
 @place_halo:        #776960;
 
 @country_text:      @place_text;
