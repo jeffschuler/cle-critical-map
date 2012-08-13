@@ -135,8 +135,8 @@ Map { font-directory: url(./fonts); }
 
 @poi_text:          @place_text;
 
-@road_text:         #14110e;
-@road_halo:         #6e635c;
+@road_text:         #2a2520;
+@road_halo:         #776c65;
 
 @other_text:        @town_text;
 @other_halo:        @place_halo;
