@@ -14,10 +14,10 @@
       line-color: @blue;
     }
     line-width: 5;
-    line-opacity: .4;
+    line-opacity: .45;
     line-color: @yellow;
   }
-  line-width: 1;
+  line-width: 1.5;
   line-opacity: 1;
   line-color: @red;
 }

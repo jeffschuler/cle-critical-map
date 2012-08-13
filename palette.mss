@@ -37,18 +37,21 @@ Map { font-directory: url(./fonts); }
 /* ================================================================== */
 
 @land:              #584d46;
-@water:             #28221e;
+@water:             #39302b;
 @grass:             #E6F2C1;
-@beach:             #FFEEC7;
-@park:              #C9E2C9;
-@sports:            #C9E2C9;
-@cemetery:          #DCE2DC;
-@wooded:            #C3D9AD;
-@agriculture:       #F2E8B6;
 
-@building:          #E0DEDE;
-@hospital:          #E0D7D5;
-@school:            #EAE5E4;
+@misc_feature:      @land * 0.97;
+
+@beach:             @misc_feature;
+@park:              @misc_feature;
+@sports:            @misc_feature;
+@cemetery:          @misc_feature;
+@wooded:            @misc_feature;
+@agriculture:       @misc_feature;
+
+@building:          @misc_feature;
+@hospital:          @misc_feature;
+@school:            @misc_feature;
 
 @residential:       @land * 0.98;
 @commercial:        @land * 0.97;
@@ -69,7 +72,7 @@ Map { font-directory: url(./fonts); }
  */
 
 @standard_line:     @land * 0.95;
-@standard_fill:     lighten(@land, 8%);
+@standard_fill:     lighten(@land, 4%);
 @standard_case:     @land * 0.95;
 
 @motorway_line:     @standard_line;
@@ -89,18 +92,18 @@ Map { font-directory: url(./fonts); }
 @secondary_case:    @secondary_line * 0.9;
 
 @pedestrian_line:   @standard_line;
-@pedestrian_fill:   #FAFAF5;
+@pedestrian_fill:   @standard_fill;
 @pedestrian_case:   @land;
 
 @cycle_line:        @standard_line;
-@cycle_fill:        #FAFAF5;
+@cycle_fill:        @standard_fill;
 @cycle_case:        @land;
 
-@rail_line:         #999;
-@rail_fill:         #fff;
+@rail_line:         @standard_line;
+@rail_fill:         @standard_fill;
 @rail_case:         @land;
 
-@aeroway:           #ddd;
+@aeroway:           @standard_line;
 
 /* ================================================================== */
 /* BOUNDARY COLORS
@@ -114,9 +117,9 @@ Map { font-directory: url(./fonts); }
 
 /* We set up a default halo color for places so you can edit them all
    at once or override each individually. */
-@place_halo:        fadeout(#fff,34%);
 
-@place_text:        #201a16;
+@place_text:        #f7eade;
+@place_halo:        #776960;
 
 @country_text:      @place_text;
 @country_halo:      @place_halo;
@@ -130,9 +133,9 @@ Map { font-directory: url(./fonts); }
 @town_text:         lighten(@city_text, 10%);
 @town_halo:         @place_halo;
 
-@poi_text:          #888;
+@poi_text:          @place_text;
 
-@road_text:         #201a16;
+@road_text:         #14110e;
 @road_halo:         #6e635c;
 
 @other_text:        @town_text;
@@ -146,6 +149,3 @@ Map { font-directory: url(./fonts); }
 @village_halo:      @place_halo;
 
 /* ****************************************************************** */
-
-
-
