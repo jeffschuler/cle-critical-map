@@ -15,6 +15,7 @@
 /* PLACE NAMES
 /* ================================================================== */
 
+/*
 #place::country[type='country'][zoom>3][zoom<9] {
   text-name:'[name]';
   text-face-name:@sans_bold;
@@ -84,6 +85,7 @@
     text-character-spacing: 2;
   }
 }
+*/
 
 /* ---- Cities ------------------------------------------------------ */
 
@@ -95,41 +97,41 @@
   text-halo-fill:@city_halo;
   text-halo-radius:2;
   [zoom<=8] {
-    text-size: 10;
+    text-size: 11 + @text_adjust;
     text-halo-radius:1;
   }
   [zoom=9] {
-    text-size:10;
+    text-size: 11 + @text_adjust;
     text-wrap-width: 60;
   }
   [zoom=10] {
-    text-size:11;
+    text-size: 12 + @text_adjust;
     text-wrap-width: 70;
   }
   [zoom=11] {
-    text-size:12;
+    text-size: 13 + @text_adjust;
     text-character-spacing: 1;
     text-wrap-width: 80;
   }
   [zoom=12] {
-    text-size:13;
+    text-size: 14 + @text_adjust;
     text-character-spacing: 1;
     text-wrap-width: 100;
   }
   [zoom=13] {
-    text-size:14;
+    text-size: 15 + @text_adjust;
     text-character-spacing: 2;
     text-wrap-width: 200;
     text-transform: uppercase;
   }
   [zoom=14] {
-    text-size:15;
+    text-size: 16 + @text_adjust;
     text-character-spacing: 4;
     text-wrap-width: 300;
     text-transform: uppercase;
   }
   [zoom=15] {
-    text-size:16;
+    text-size: 17 + @text_adjust;
     text-character-spacing: 6;
     text-wrap-width: 400;
     text-transform: uppercase;
@@ -143,17 +145,17 @@
   text-face-name:@sans;
   text-placement:point;
   text-fill:@town_text;
-  text-size:9;
+  text-size: 10 + @text_adjust;
   text-halo-fill:@town_halo;
   text-halo-radius:1;
   text-wrap-width: 50;
   [zoom>=10] {
     text-halo-radius:2;
-    text-size: 10;
+    text-size: 11 + @text_adjust;
   }
-  [zoom>=11]{ text-size:11; }
+  [zoom>=11]{ text-size: 11 + @text_adjust; }
   [zoom>=12]{
-    text-size:12;
+    text-size: 13 + @text_adjust;
     text-line-spacing: 1;
   }
   [zoom>=13]{
@@ -162,22 +164,22 @@
     text-line-spacing: 2;
   }
   [zoom>=14]{
-    text-size:13;
+    text-size: 14 + @text_adjust;
     text-character-spacing: 2;
     text-line-spacing: 3;
   }
   [zoom>=15]{
-    text-size:14;
+    text-size: 15 + @text_adjust;
     text-character-spacing: 3;
     text-line-spacing: 4;
   }
   [zoom>=15]{
-    text-size:15;
+    text-size: 16 + @text_adjust;
     text-character-spacing: 4;
     text-line-spacing: 5;
   }
   [zoom>=17]{
-    text-size:16;
+    text-size: 17 + @text_adjust;
     text-character-spacing: 5;
     text-line-spacing: 6;
   }
@@ -192,12 +194,12 @@
   text-face-name:@sans;
   text-placement:point;
   text-fill:@other_text;
-  text-size:10;
+  text-size: 11 + @text_adjust;
   text-halo-fill:@other_halo;
   text-halo-radius:1;
   text-wrap-width: 30;
   [zoom>=14] {
-    text-size:11;
+    text-size: 12 + @text_adjust;
     text-character-spacing: 1;
     text-wrap-width: 40;
     text-line-spacing: 1;
@@ -210,19 +212,19 @@
     text-line-spacing: 1;
   }
   [zoom>=16] {
-    text-size:12;
+    text-size: 13 + @text_adjust;
     text-character-spacing: 2;
     text-wrap-width: 120;
     text-line-spacing: 2;
   } 
   [zoom>=17] {
-    text-size:13; 
+    text-size: 14 + @text_adjust; 
     text-character-spacing: 3;
     text-wrap-width: 160;
     text-line-spacing: 4;
   }
   [zoom>=18] {
-    text-size:14;
+    text-size: 15 + @text_adjust;
     text-character-spacing: 4;
     text-line-spacing: 6;
   }
@@ -233,22 +235,22 @@
   text-face-name:@sans;
   text-placement:point;
   text-fill:@locality_text;
-  text-size:9;
+  text-size: 9 + @text_adjust;
   text-halo-fill:@locality_halo;
   text-halo-radius:1;
   text-wrap-width: 30;
   [zoom>=16] {
-    text-size:10;
+    text-size: 10 + @text_adjust;
     text-wrap-width: 60;
     text-line-spacing: 1;
   }
   [zoom>=17] {
-    text-size:11;
+    text-size: 11 + @text_adjust;
     text-wrap-width: 120;
     text-line-spacing: 2;
   }
   [zoom>=18] {
-    text-size:12;
+    text-size: 12 + @text_adjust;
     text-character-spacing: 1;
     text-line-spacing: 4;
   }
