@@ -1,20 +1,18 @@
-@bluegreen: #6DBDB2;
 @red: #DE5F6B;
-@beige: #E2B360;
-
 @yellow: #BBC22E;
-@purple: #400B55;
 @blue: #6FB0BC;
+
+@purple: #400B55;
 
 .route, .track {
   ::glow1 {
     ::glow2 {
-      line-width: 10;
-      line-opacity: .25;
+      line-width: 12;
+      line-opacity: .1;
       line-color: @blue;
     }
-    line-width: 5;
-    line-opacity: .45;
+    line-width: 8;
+    line-opacity: .25;
     line-color: @yellow;
   }
   line-width: 1.5;
@@ -47,7 +45,7 @@
 #2012-06-track,
 */
 #none {
-  line-color: purple;
+  line-color: @purple;
   line-width: 3;
   line-opacity: 1;
 }
