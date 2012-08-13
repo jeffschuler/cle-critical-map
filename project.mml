@@ -1,14 +1,14 @@
 {
   "bounds": [
-    -81.8235,
-    41.445,
-    -81.5859,
-    41.5379
+    -81.8839,
+    41.3697,
+    -81.5186,
+    41.5591
   ],
   "center": [
-    -81.6882,
-    41.497,
-    13
+    -81.7009,
+    41.4915,
+    12
   ],
   "format": "png",
   "interactivity": false,
@@ -863,6 +863,6 @@
   ],
   "name": "Cleveland Critical Mass",
   "description": "Cleveland Critical Mass routes",
-  "attribution": "",
+  "attribution": "map data via OpenStreetMap ; route data via http://clevelandcm.wordpress.com/",
   "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp"
 }
