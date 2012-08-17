@@ -481,6 +481,66 @@
     },
     {
       "geometry": "linestring",
+      "id": "2009-08-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2009-08/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2009-08-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2009-09-route",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2009-09/routes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2009-09-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2009-10-route",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2009-10/routes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2009-10-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2010-04-route",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-04/routes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-04-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2010-05-route",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-05/routes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-05-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
       "id": "2010-06-route",
       "class": "route",
       "Datasource": {
@@ -489,6 +549,30 @@
       "srs-name": "autodetect",
       "srs": "",
       "name": "2010-06-route",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2010-08-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-08/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-08-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2010-09-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-09/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-09-track",
       "status": "on"
     },
     {
@@ -508,54 +592,6 @@
     },
     {
       "geometry": "linestring",
-      "id": "2011-11-track",
-      "class": "track",
-      "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-11/tracks.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "2011-11-track",
-      "status": "on"
-    },
-    {
-      "geometry": "linestring",
-      "id": "2011-12-track",
-      "class": "track",
-      "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-12/tracks.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "2011-12-track",
-      "status": "on"
-    },
-    {
-      "geometry": "linestring",
-      "id": "2012-04-track",
-      "class": "track",
-      "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-04/tracks.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "2012-04-track",
-      "status": "on"
-    },
-    {
-      "geometry": "linestring",
-      "id": "2010-08-track",
-      "class": "track",
-      "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-08/tracks.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "2010-08-track",
-      "status": "on"
-    },
-    {
-      "geometry": "linestring",
       "id": "2010-11-track",
       "class": "track",
       "Datasource": {
@@ -564,78 +600,6 @@
       "srs-name": "autodetect",
       "srs": "",
       "name": "2010-11-track",
-      "status": "on"
-    },
-    {
-      "geometry": "linestring",
-      "id": "2010-05-route",
-      "class": "route",
-      "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-05/routes.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "2010-05-route",
-      "status": "on"
-    },
-    {
-      "geometry": "linestring",
-      "id": "2010-04-route",
-      "class": "route",
-      "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-04/routes.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "2010-04-route",
-      "status": "on"
-    },
-    {
-      "geometry": "linestring",
-      "id": "2009-10-route",
-      "class": "route",
-      "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2009-10/routes.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "2009-10-route",
-      "status": "on"
-    },
-    {
-      "geometry": "linestring",
-      "id": "2009-09-route",
-      "class": "route",
-      "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2009-09/routes.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "2009-09-route",
-      "status": "on"
-    },
-    {
-      "geometry": "linestring",
-      "id": "2012-05-track",
-      "class": "track",
-      "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-05/tracks.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "2012-05-track",
-      "status": "on"
-    },
-    {
-      "geometry": "linestring",
-      "id": "2012-06-track",
-      "class": "track",
-      "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-06/tracks.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "2012-06-track",
       "status": "on"
     },
     {
@@ -712,26 +676,73 @@
     },
     {
       "geometry": "linestring",
-      "id": "2010-09-track",
+      "id": "2011-07-track",
       "class": "track",
       "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-09/tracks.shp"
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-07/tracks.shp"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "name": "2010-09-track",
+      "name": "2011-07-track"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2011-11-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-11/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-11-track",
       "status": "on"
     },
     {
       "geometry": "linestring",
-      "id": "2009-08-track",
+      "id": "2011-12-track",
       "class": "track",
       "Datasource": {
-        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2009-08/tracks.shp"
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-12/tracks.shp"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "name": "2009-08-track",
+      "name": "2011-12-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2012-04-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-04/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2012-04-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2012-05-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-05/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2012-05-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2012-06-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-06/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2012-06-track",
       "status": "on"
     },
     {
