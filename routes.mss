@@ -49,3 +49,10 @@
   line-width: 3;
   line-opacity: 1;
 }
+
+#destination {
+  marker-width: 7;
+  marker-fill: @purple;
+  marker-line-color: darken(@purple, 10);
+  marker-allow-overlap: true;
+}
