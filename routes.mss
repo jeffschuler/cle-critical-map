@@ -51,8 +51,11 @@
 }
 
 #destination {
-  marker-width: 7;
-  marker-fill: @purple;
-  marker-line-color: darken(@purple, 10);
+  marker-width: 8;
+  marker-opacity: .8;
+  marker-fill: darken(@red, 20);
+  marker-line-width: 2;
+  marker-line-color: @yellow;
+  marker-line-opacity: .3;
   marker-allow-overlap: true;
 }
