@@ -890,5 +890,5 @@
   "description": "Cleveland Critical Mass routes",
   "attribution": "Map data: OpenStreetMap. Route data, http://clevelandcm.wordpress.com.",
   "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp",
-  "legend": ""
+  "legend": "<strong>Cleveland Critical Mass</strong><br />\nRides and destinations, 2009-present"
 }
