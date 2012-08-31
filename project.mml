@@ -1,21 +1,27 @@
 {
   "bounds": [
-    -82.0741,
-    41.2632,
-    -81.3099,
-    41.6943
+    -82.2667,
+    41.1325,
+    -81.1447,
+    41.7799
   ],
   "center": [
-    -81.7009,
-    41.4915,
-    12
+    -81.7037,
+    41.5007,
+    11
   ],
   "format": "png",
   "interactivity": {
     "layer": "destination",
-    "template_teaser": "<strong>{{{name}}}</strong><br />\n<strong>Destination:</strong> {{{description}}}<br />\n<strong>Riders:</strong> {{{field_attendees}}}<br />\n<strong>Distance:</strong> {{{field_distance}}} mi."
+    "template_teaser": "<strong>{{{name}}}</strong><br />\n<strong>Destination:</strong> {{{description}}}<br />\n<strong>Riders:</strong> {{{field_attendees}}}<br />\n<strong>Distance:</strong> {{{field_distance}}} mi.",
+    "fields": [
+      "name",
+      "description",
+      "field_attendees",
+      "field_distance"
+    ]
   },
-  "minzoom": 12,
+  "minzoom": 10,
   "maxzoom": 17,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
@@ -690,6 +696,28 @@
     },
     {
       "geometry": "linestring",
+      "id": "2011-08-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-08/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-08-track"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2011-09-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-09/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-09-track"
+    },
+    {
+      "geometry": "linestring",
       "id": "2011-11-track",
       "class": "track",
       "Datasource": {
@@ -710,6 +738,18 @@
       "srs-name": "autodetect",
       "srs": "",
       "name": "2011-12-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2012-03-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-03/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2012-03-track",
       "status": "on"
     },
     {
@@ -746,6 +786,18 @@
       "srs-name": "autodetect",
       "srs": "",
       "name": "2012-06-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2012-07-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-07/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2012-07-track",
       "status": "on"
     },
     {
@@ -887,8 +939,8 @@
     }
   ],
   "name": "Cleveland Critical Mass",
-  "description": "Cleveland Critical Mass routes",
-  "attribution": "Map data: OpenStreetMap. Route data, http://clevelandcm.wordpress.com.",
+  "description": "Cleveland Critical Mass rides, 8/2009 - Present. http://ccm.websubstrate.com/",
+  "attribution": "Map data, OpenStreetMap",
   "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp",
   "legend": "<strong>Cleveland Critical Mass</strong><br />\nRides and destinations, 2009-present"
 }
