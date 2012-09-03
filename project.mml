@@ -801,6 +801,18 @@
       "status": "on"
     },
     {
+      "geometry": "linestring",
+      "id": "2012-08-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-08/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2012-08-track",
+      "status": "on"
+    },
+    {
       "Datasource": {
         "dbname": "osm",
         "extent": "-20037508.34 -20037508.34 20037508.34 20037508.34",

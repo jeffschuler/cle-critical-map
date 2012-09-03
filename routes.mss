@@ -1,8 +1,8 @@
 @red: #ff3346;
 @yellow: #f7ff4c;
 @blue: #00d7ff;
-
 @purple: #b700ff;
+
 .route, .track {
   ::glow1 {
     ::glow2 {
@@ -44,7 +44,8 @@
 #2012-04-track
 #2012-05-track
 #2012-06-track
-#2012-06-track
+#2012-07-track
+#2012-08-track
 */
 .none {
   line-color: @purple;
