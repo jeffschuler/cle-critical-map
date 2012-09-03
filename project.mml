@@ -943,7 +943,7 @@
       "id": "destination",
       "class": "",
       "Datasource": {
-        "file": "http://clecritmass.loco/ride-destinations.geojson"
+        "file": "http://ccm.websubstrate.com/ride-destinations.geojson"
       },
       "srs-name": "autodetect",
       "srs": "",
