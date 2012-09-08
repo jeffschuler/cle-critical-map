@@ -718,6 +718,17 @@
     },
     {
       "geometry": "linestring",
+      "id": "2011-10-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2011-10/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011-10-track"
+    },
+    {
+      "geometry": "linestring",
       "id": "2011-11-track",
       "class": "track",
       "Datasource": {
@@ -738,6 +749,18 @@
       "srs-name": "autodetect",
       "srs": "",
       "name": "2011-12-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "id": "2012-01-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2012-01/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2012-01-track",
       "status": "on"
     },
     {
@@ -950,9 +973,10 @@
       "name": "destination"
     }
   ],
+  "scale": 1,
+  "metatile": 2,
   "name": "Cleveland Critical Mass",
   "description": "Cleveland Critical Mass rides, 8/2009 - Present. http://ccm.websubstrate.com/",
   "attribution": "Map data, OpenStreetMap",
-  "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp",
   "legend": "<strong>Cleveland Critical Mass</strong><br />\nRides and destinations, 2009-present"
 }
