@@ -562,6 +562,18 @@
     },
     {
       "geometry": "linestring",
+      "id": "2010-07-track",
+      "class": "track",
+      "Datasource": {
+        "file": "/Users/jeffschuler/Proj/CCM - Cleveland Critical Mass/Data/CCM--2010-07/tracks.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2010-07-track",
+      "status": "on"
+    },
+    {
+      "geometry": "linestring",
       "id": "2010-08-track",
       "class": "track",
       "Datasource": {
